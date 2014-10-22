@@ -14,6 +14,9 @@ Include this plugin after including the Snap.svg.js library in your html documen
 To enable text with newlines:
 
 ```javascript
-var foobar = 'A bunch of javascript.';
+Snap("svg").multitext(100, 100, "Sample\nmultiline\ntext").attr({
+    font: "30px Nautilus Pompilius",
+    textAnchor: "middle"
+});
 ```
 
